@@ -8,3 +8,67 @@ body{
     height: 100vh;
     width: 100vw;
 }
+
+svg{
+    height: 20px;
+    width: 20px;
+}
+
+.optionsitem, .options2item{
+display: flex;
+flex-direction: row;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: aqua;
+    width: 20vw;
+}
+
+.rightside{
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.header{
+    height: 20vh;
+    background-color: yellow;
+}
+
+.contentcontent{
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.contentleft{
+    width: 60vw;
+    background-color: orange;
+}
+
+.contentright{
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.announcements{
+    height: 45vh;
+    background-color: blue;
+
+}
+
+.trending{
+    height: 35vh;
+    background-color: olivedrab;
+
+}
