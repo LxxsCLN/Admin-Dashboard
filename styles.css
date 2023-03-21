@@ -29,8 +29,9 @@ flex-direction: row;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    background-color: aqua;
+    background-color: #1992d4;
     width: 20vw;
+    color: white;
 }
 
 .rightside{
@@ -52,23 +53,64 @@ flex-direction: row;
 
 .contentleft{
     width: 60vw;
-    background-color: orange;
+    background-color: #e2e8f0;
+    padding: 1.5%;
 }
 
 .contentright{
     width: 20vw;
     display: flex;
     flex-direction: column;
+    background-color: #e2e8f0;
 }
 
 .announcements{
+    display: flex;
     height: 45vh;
-    background-color: blue;
-
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .trending{
+    display: flex;
     height: 35vh;
-    background-color: olivedrab;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.cardcontainer{
+    display: grid;
+    grid-template-columns: 48.75% 48.75%;
+    grid-template-rows: 20vh 20vh 20vh;
+    gap: 25px;
+    align-content: center;
+    justify-content: center;
+}
+
+.card{
+    border-radius: 7px;
+    border-left: 8px solid #f0b429;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgb(197, 197, 197);
+    position: relative;
+}
+
+h2{
+    padding-bottom: 20px;
+}
+
+.cardicon{
+    position: relative;
+    top: 120px;
+    left: 400px;
+}
+
+.cardt, .carda{
+    height: 80%;
+    width: 80%;
+    border-radius: 7px;
+    background-color: white;
+    box-shadow: 2px 2px 3px rgb(197, 197, 197);   
 }
